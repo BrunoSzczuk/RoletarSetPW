@@ -1,0 +1,11 @@
+
+wpython:S117"`Rename this local variable "BotaoReproduzir" to match the regular expression ^[_a-z][a-z0-9_]*$.(½„ší
+ppython:S117/"ZRename this local variable "areaAstro" to match the regular expression ^[_a-z][a-z0-9_]*$.(É¶Üd
+npython:S117?"WRename this local variable "qtdAtk" to match the regular expression ^[_a-z][a-z0-9_]*$.(òôšü
+spython:S117B"WRename this local variable "qtdDef" to match the regular expression ^[_a-z][a-z0-9_]*$.(Šô“Æüÿÿÿÿ
+spython:S117<"\Rename this local variable "qtdEspirios" to match the regular expression ^[_a-z][a-z0-9_]*$.(ÒŽˆÞ
+rpython:S117E"VRename this local variable "qtdHp" to match the regular expression ^[_a-z][a-z0-9_]*$.(«‹«÷ýÿÿÿÿ
+npython:S117H"WRename this local variable "qtdPen" to match the regular expression ^[_a-z][a-z0-9_]*$.(¾ßðÀ
+;python:S125"Remove this commented out code.(õúïÏþÿÿÿÿ
+;python:S125""Remove this commented out code.(“Þ™¨øÿÿÿÿ
+6python:S125-"Remove this commented out code.(†¾—’

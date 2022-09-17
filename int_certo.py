@@ -7,7 +7,6 @@ import PIL.ImageOps
 import time
 import pyautogui #Biblioteca automação
 import re
-import function as f
 from string import punctuation
 
 tesseract = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
@@ -31,7 +30,7 @@ def main():
     pyautogui.keyUp('alt')
     time.sleep(.2)
     #BotaoReproduzir = f.LocateButton() #Localiza as coordenadas X e Y do botao reproduzir
-    BotaoReproduzir = pyautogui.locateOnScreen('C:\projetos\Roletar set\\btnReforja.png', confidence=.9)
+    BotaoReproduzir = pyautogui.locateOnScreen('C:\projetos\RoletarSetPW\\btnReforja.png', confidence=.9)
     #print(BotaoReproduzir)
     if (BotaoReproduzir is None):
         print('Não foi encontrado o botão REFORJA na tela aberta, Tente novamente')
@@ -54,7 +53,7 @@ def main():
 
         #imagem = pyautogui.screenshot(r'testeSet.png')
         imagem = pyautogui.screenshot()
-        areaAdds = pyautogui.locateOnScreen('C:\projetos\Roletar set\\int.png', confidence=.9);
+        areaAdds = pyautogui.locateOnScreen('C:\projetos\RoletarSetPW\\intwar.png', confidence=.6);
         if (not areaAdds is None):
             #area = (AreaAdds_X[0], AreaAdds_Y[0], AreaAdds_X[1], AreaAdds_Y[1]) #Defino o tamanho e o local da area a ser corada na imagem
             cropped_img = imagem.crop((areaAdds.left +areaAdds.width/2, areaAdds.top, areaAdds.left + areaAdds.width, areaAdds.top +  areaAdds.height)) #Corta a area na imagem onde ficam os adds
